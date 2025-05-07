@@ -25,3 +25,9 @@ Startups, law firms, and MNCs expanding into Southeast Asia often struggle with 
 | Web Scraping      | Requests / BeautifulSoup       |
 | UI / API          | Streamlit / FastAPI            |
 | Language          | Python                         |
+
+## 📜 License
+
+MIT License
+
+---
