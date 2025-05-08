@@ -1,0 +1,8 @@
+openai
+langchain
+pymupdf
+beautifulsoup4
+requests
+chromadb
+python-dotenv
+streamlit
