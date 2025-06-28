@@ -46,7 +46,6 @@ Built with **React + FastAPI**, and powered by **LlamaIndex** and **Qdrant**, th
 ## 📁 Folder Structure
 
 legal-llm-platform/
-
 ├── backend/             
 ├── frontend/             
 ├── rag_engine/           
