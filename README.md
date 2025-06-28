@@ -46,11 +46,11 @@ Built with **React + FastAPI**, and powered by **LlamaIndex** and **Qdrant**, th
 ## 📁 Folder Structure
 
 legal-llm-platform/
-├── backend/ # FastAPI server + RAG pipeline
-├── frontend/ # React frontend (Vite + Tailwind)
-├── rag/ # LlamaIndex setup + chunking logic
-├── qdrant/ # Vector DB schema + Docker config
-├── parser/ # PDF parsers, metadata enrichers
-├── data/ # Sample legal documents (test only)
-├── docker-compose.yml
-└── README.md
+├── backend/             
+├── frontend/             
+├── rag_engine/           
+├── vector_store/        
+├── docs/                
+├── utils/                
+├── Dockerfile
+└── docker-compose.yml
