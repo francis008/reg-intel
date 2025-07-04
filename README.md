@@ -17,8 +17,20 @@ This is a **complete, working MVP** that demonstrates:
 
 ### Start the Platform
 ```bash
-# In your terminal, run:
+# Method 1: Run complete pipeline (first time)
+python pipeline/run_pipeline.py
+
+# Method 2: Start individual services
 ./start-both.sh
+```
+
+### Setup Large Files (First Time Only)
+```bash
+# Download or generate embeddings (large files not in Git)
+python download_embeddings.py
+
+# Alternative: Generate from scratch
+python pipeline/chunk_and_embed.py
 ```
 
 ### Access Your Platform

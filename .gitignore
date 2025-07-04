@@ -48,6 +48,14 @@ Thumbs.db
 # Windows
 Thumbs.db
 ehthumbs.db
+
+# Large embedding files (regenerated from parsed data)
+embeddings/
+*.npy
+*.pkl
+
+# Large parsed files (can be regenerated)
+parsed/
 Desktop.ini
 
 # IDEs

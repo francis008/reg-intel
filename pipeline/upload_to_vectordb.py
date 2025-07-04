@@ -396,6 +396,17 @@ class MalaysianLegalUploader:
     def load_embeddings_data(self) -> Optional[List[Dict[str, Any]]]:
         """Load processed embeddings and prepare for upload"""
         
+        # Try to load directly from vector database first (if already uploaded)
+        try:
+            stats = self.vector_db.get_collection_stats()
+            if stats.get('total_points', 0) > 0:
+                logger.info(f"✅ Found existing vector database with {stats['total_points']} points")
+                response = input("Vector database already contains data. Re-upload? (y/N): ")
+                if response.lower() != 'y':
+                    return None
+        except:
+            pass
+        
         # Try to load the complete pickle file first
         pickle_file = self.embeddings_dir / "legal_embeddings_complete.pkl"
         if pickle_file.exists():
