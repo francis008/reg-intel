@@ -574,7 +574,10 @@ def main():
     
     if not any(f.exists() for f in required_files):
         print("❌ No embedding files found")
-        print("📋 Run chunk_and_embed.py first")
+        print("📋 Generate embeddings first:")
+        print("   Option 1: python download_embeddings.py")
+        print("   Option 2: python pipeline/chunk_and_embed.py")
+        print("   Option 3: python pipeline/run_pipeline.py")
         return
     
     print("💡 Make sure Qdrant is running:")
