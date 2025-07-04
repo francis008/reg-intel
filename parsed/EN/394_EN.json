@@ -1,0 +1,107 @@
+{
+  "act_number": "394",
+  "act_title": "Act 394 BI Online Repealed Amendment by Act A837",
+  "language": "EN",
+  "filename": "Act_394_EN_Act 394 BI Online Repealed Amendment by Act A837.pdf",
+  "file_path": "malaysian_acts/EN/Act_394_EN_Act 394 BI Online Repealed Amendment by Act A837.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "",
+      "content": "Special Pensions (Raja Permaisuri Agong)",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "1",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "LAWS  OF  MALAYSIA",
+      "content": "LAWS  OF  MALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "Act  394",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_5",
+      "heading": "PARLIAMENTARY  SERVICE\nACT  1963",
+      "content": "PARLIAMENTARY  SERVICE\nACT  1963",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_6",
+      "heading": "",
+      "content": "(  Repealed  by  the  Constitution  (Amendment)\nAct  1992  [Act A837]  )",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_7",
+      "heading": "PUBLISHED BY\nTHE COMMISSIONER OF LAW REVISION, MALAYSIA\nUNDER THE AUTHORITY OF THE REVISION OF LAWS ACT 1968\nIN COLLABORATION WITH\nPERCETAKAN NASIONAL MALAYSIA BHD\n2006",
+      "content": "PUBLISHED BY\nTHE COMMISSIONER OF LAW REVISION, MALAYSIA\nUNDER THE AUTHORITY OF THE REVISION OF LAWS ACT 1968\nIN COLLABORATION WITH\nPERCETAKAN NASIONAL MALAYSIA BHD\n2006",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_8",
+      "heading": "",
+      "content": "2",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_9",
+      "heading": "",
+      "content": "Laws of Malaysia",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_10",
+      "heading": "ACT 223",
+      "content": "ACT 223",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751516644.2694783",
+    "file_size_bytes": 289285,
+    "original_language_dir": "EN"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "fcf79edc8f5d"
+}

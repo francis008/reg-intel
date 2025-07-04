@@ -1,0 +1,26 @@
+{
+  "act_number": "219",
+  "act_title": "Act 219",
+  "language": "EN",
+  "filename": "Act_219_EN_Act 219.pdf",
+  "file_path": "malaysian_acts/EN/Act_219_EN_Act 219.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "",
+      "content": "Special Pensions (Raja Permaisuri Agong)1LAWS OF MALAYSIAAct 219FINANCE (ESTATE DUTY)ACT 1979(Repealed by the Finance Act 1992[Act 476])PUBLISHED BYTHE COMMISSIONER OF LAW REVISION, MALAYSIAUNDER THE AUTHORITY OF THE REVISION OF LAWS ACT 1968IN COLLABORATION WITHPERCETAKAN NASIONAL MALAYSIA BHD2006",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751517116.4490662",
+    "file_size_bytes": 58650,
+    "original_language_dir": "EN"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "4922d1ed54b2"
+}

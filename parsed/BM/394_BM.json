@@ -1,0 +1,53 @@
+{
+  "act_number": "394",
+  "act_title": "Akta 394 BM (Versi Atas Talian) Dimansuhkan oleh Akta Pindaan A837",
+  "language": "BM",
+  "filename": "Act_394_BM_Akta 394 BM (Versi Atas Talian) Dimansuhkan oleh Akta Pindaan A837.pdf",
+  "file_path": "malaysian_acts/BM/Act_394_BM_Akta 394 BM (Versi Atas Talian) Dimansuhkan oleh Akta Pindaan A837.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "UNDANG-UNDANG  \nMALAYSIA",
+      "content": "UNDANG-UNDANG  \nMALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Akta 394",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "AKTA PERKHIDMATAN \nPARLIMEN 1963",
+      "content": "AKTA PERKHIDMATAN \nPARLIMEN 1963",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Dimansuhkan oleh Akta \nPerlembagaan (Pindaan) 1992 \n[Akta A837])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751516641.5922182",
+    "file_size_bytes": 139660,
+    "original_language_dir": "BM"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "d1395ebf1c38"
+}

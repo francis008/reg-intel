@@ -1,0 +1,53 @@
+{
+  "act_number": "565",
+  "act_title": "Akta 565 BM Dimansuhkan oleh Akta 707",
+  "language": "BM",
+  "filename": "Act_565_BM_Akta 565 BM Dimansuhkan oleh Akta 707.pdf",
+  "file_path": "malaysian_acts/BM/Act_565_BM_Akta 565 BM Dimansuhkan oleh Akta 707.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "UNDANG-UNDANG  \nMALAYSIA",
+      "content": "UNDANG-UNDANG  \nMALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Akta 556",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "AKTA PERKONGSIAN TERHAD \nLUAR PESISIR LABUAN 1997",
+      "content": "AKTA PERKONGSIAN TERHAD \nLUAR PESISIR LABUAN 1997",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Dimansuhkan oleh Akta Perkongsian \nTerhad Dan Perkongsian Liabiliti \nTerhad Labuan 2010 [Akta 707])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751515991.9299183",
+    "file_size_bytes": 139653,
+    "original_language_dir": "BM"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "a67f15f03a1f"
+}

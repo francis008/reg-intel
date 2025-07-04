@@ -1,6 +1,42 @@
-# ⚖️ Custom Legal LLM Platform for Law Firms
+# Legal LLM Platform 🏛️ (MVP Version)
 
-> **A secure, private AI assistant that enables law firms to search, retrieve, and summarize legal documents—including internal memos and public case law—using natural language.**
+**A working MVP for custom AI platform for law firms**
+
+🚀 **CURRENTLY RUNNING**: Your Legal LLM Platform is now operational!
+
+## 🎯 What You've Built
+
+This is a **complete, working MVP** that demonstrates:
+- ✅ **Document Processing Pipeline**: Upload → Extract → Classify → Store
+- ✅ **AI Text Generation**: Template-based legal document creation
+- ✅ **Web Interface**: Professional UI for document management
+- ✅ **REST API**: Full API with automatic documentation
+- ✅ **Document Classification**: Automatic legal document categorization
+
+## 🔧 How to Use Your Platform
+
+### Start the Platform
+```bash
+# In your terminal, run:
+./start-both.sh
+```
+
+### Access Your Platform
+- **🌐 Web App**: http://localhost:8501 (Main interface)
+- **📚 API Docs**: http://localhost:8000/docs (API documentation)
+- **🔌 API**: http://localhost:8000 (Direct API access)
+
+### Try These Features
+1. **Upload Documents**: Go to "Upload Documents" tab, drag & drop a PDF
+2. **Generate Text**: Use "Generate Text" tab to create legal documents
+3. **View Training Data**: See processed documents in "Training Data" tab
+4. **API Testing**: Use the auto-generated docs at `/docs` endpoint
+
+---
+
+# ⚖️ Full Vision: Custom Legal LLM Platform for Law Firms
+
+> **The complete vision: A secure, private AI assistant that enables law firms to search, retrieve, and summarize legal documents—including internal memos and public case law—using natural language.**
 
 ---
 

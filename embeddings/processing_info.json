@@ -1,0 +1,18 @@
+{
+  "total_embeddings": 188627,
+  "embedding_model": "BAAI/bge-base-en-v1.5",
+  "embedding_dimension": 768,
+  "statistics": {
+    "documents_processed": 1041,
+    "total_chunks": 188627,
+    "total_embeddings": 188627,
+    "en_chunks": 103423,
+    "bm_chunks": 85204,
+    "failed_documents": 0
+  },
+  "files_created": [
+    "legal_chunks_metadata.json",
+    "legal_embeddings.npy",
+    "legal_embeddings_complete.pkl"
+  ]
+}

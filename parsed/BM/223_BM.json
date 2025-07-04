@@ -1,0 +1,53 @@
+{
+  "act_number": "223",
+  "act_title": "Akta 223- dimansuhkan oleh Akta 270",
+  "language": "BM",
+  "filename": "Act_223_BM_Akta 223- dimansuhkan oleh Akta 270.pdf",
+  "file_path": "malaysian_acts/BM/Act_223_BM_Akta 223- dimansuhkan oleh Akta 270.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "UNDANG-UNDANG  \nMALAYSIA",
+      "content": "UNDANG-UNDANG  \nMALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Akta 223",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "AKTA PENCEN KHAS (RAJA \nPERMAISURI AGONG) 1979",
+      "content": "AKTA PENCEN KHAS (RAJA \nPERMAISURI AGONG) 1979",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Dimansuhkan oleh Akta Istana \nNegara (Elaun-Elaun Diraja) 1982 \n[Akta 270])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751517102.5038123",
+    "file_size_bytes": 139530,
+    "original_language_dir": "BM"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "87e5f3166a3a"
+}

@@ -1,0 +1,16 @@
+{
+  "act_number": "303",
+  "act_title": "Akta 303- original",
+  "language": "BM",
+  "filename": "Act_303_BM_Akta 303- original.pdf",
+  "file_path": "malaysian_acts/BM/Act_303_BM_Akta 303- original.pdf",
+  "total_pages": 1,
+  "sections": [],
+  "metadata": {
+    "parsing_timestamp": "1751516931.901773",
+    "file_size_bytes": 7363575,
+    "original_language_dir": "BM"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "e8b4ed2393e4"
+}

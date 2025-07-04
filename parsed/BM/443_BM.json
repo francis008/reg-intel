@@ -1,0 +1,53 @@
+{
+  "act_number": "443",
+  "act_title": "Akta 443 Dimansuhkan",
+  "language": "BM",
+  "filename": "Act_443_BM_Akta 443 Dimansuhkan.pdf",
+  "file_path": "malaysian_acts/BM/Act_443_BM_Akta 443 Dimansuhkan.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "UNDANG-UNDANG  \nMALAYSIA",
+      "content": "UNDANG-UNDANG  \nMALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Akta 443",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "AKTA BANK LUAR PESISIR \nLABUAN 1990",
+      "content": "AKTA BANK LUAR PESISIR \nLABUAN 1990",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Dimansuhkan oleh Akta \nPerkhidmatan Kewangan Dan Sekuriti \nLabuan 2010 [Akta 704])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751516455.6308775",
+    "file_size_bytes": 139603,
+    "original_language_dir": "BM"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "733635852f3e"
+}

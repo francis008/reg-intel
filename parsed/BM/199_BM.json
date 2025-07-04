@@ -1,0 +1,53 @@
+{
+  "act_number": "199",
+  "act_title": "Akta 199 Dimansuhkan",
+  "language": "BM",
+  "filename": "Act_199_BM_Akta 199 Dimansuhkan.pdf",
+  "file_path": "malaysian_acts/BM/Act_199_BM_Akta 199 Dimansuhkan.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "UNDANG-UNDANG  \nMALAYSIA",
+      "content": "UNDANG-UNDANG  \nMALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Akta 199",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "AKTA GALAKAN PELABURAN 1968",
+      "content": "AKTA GALAKAN PELABURAN 1968",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Dimansuhkan oleh Akta Penggalakan \nPelaburan 1986 [Akta 327])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751517160.8908222",
+    "file_size_bytes": 139391,
+    "original_language_dir": "BM"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "8d4dff49dc38"
+}

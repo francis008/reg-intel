@@ -1,0 +1,53 @@
+{
+  "act_number": "762",
+  "act_title": "762 BM-Dimansuhkan",
+  "language": "BM",
+  "filename": "Act_762_BM_762 BM-Dimansuhkan.pdf",
+  "file_path": "malaysian_acts/BM/Act_762_BM_762 BM-Dimansuhkan.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "UNDANG-UNDANG  \nMALAYSIA",
+      "content": "UNDANG-UNDANG  \nMALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Akta 762",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "AKTA CUKAI BARANG DAN \nPERKHIDMATAN 2014",
+      "content": "AKTA CUKAI BARANG DAN \nPERKHIDMATAN 2014",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Dimansuhkan oleh Akta Cukai \nBarang dan Perkhidmatan \n(Pemansuhan) 2018 \n [Akta 805])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751515156.206997",
+    "file_size_bytes": 140443,
+    "original_language_dir": "BM"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "88034ebb9b7f"
+}

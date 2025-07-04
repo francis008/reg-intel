@@ -1,0 +1,53 @@
+{
+  "act_number": "54",
+  "act_title": "Akta 54 (PEMANSUHAN)",
+  "language": "BM",
+  "filename": "Act_54_BM_Akta 54 (PEMANSUHAN).pdf",
+  "file_path": "malaysian_acts/BM/Act_54_BM_Akta 54 (PEMANSUHAN).pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "UNDANG-UNDANG \nMALAYSIA",
+      "content": "UNDANG-UNDANG \nMALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Akta 54",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "AKTA CUKAI PENDAPATAN \nTAMBAHAN 1967",
+      "content": "AKTA CUKAI PENDAPATAN \nTAMBAHAN 1967",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Dimansuhkan oleh Akta  Kewangan \n1993 [Akta 497])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751517384.99991",
+    "file_size_bytes": 60482,
+    "original_language_dir": "BM"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "e7e810b9dde6"
+}

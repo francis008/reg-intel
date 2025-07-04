@@ -1,0 +1,80 @@
+{
+  "act_number": "407",
+  "act_title": "Act 407 repealed by Act 551",
+  "language": "EN",
+  "filename": "Act_407_EN_Act 407 repealed by Act 551.pdf",
+  "file_path": "malaysian_acts/EN/Act_407_EN_Act 407 repealed by Act 551.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "",
+      "content": "Special Pensions (Raja Permaisuri Agong)",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "1",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "LAWS  OF  MALAYSIA",
+      "content": "LAWS  OF  MALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "Act  407",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_5",
+      "heading": "RUBBER  RESEARCH  INSTITUTE\nOF  MALAYSIA ACT  1966",
+      "content": "RUBBER  RESEARCH  INSTITUTE\nOF  MALAYSIA ACT  1966",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_6",
+      "heading": "",
+      "content": "(  Repealed  by  The  Malaysian  Rubber\n  Board  (Incorporation) Act  1996  [Act  551]  )",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_7",
+      "heading": "PUBLISHED BY\nTHE COMMISSIONER OF LAW REVISION, MALAYSIA\nUNDER THE AUTHORITY OF THE REVISION OF LAWS ACT 1968\nIN COLLABORATION WITH\nPERCETAKAN NASIONAL MALAYSIA BHD\n2006",
+      "content": "PUBLISHED BY\nTHE COMMISSIONER OF LAW REVISION, MALAYSIA\nUNDER THE AUTHORITY OF THE REVISION OF LAWS ACT 1968\nIN COLLABORATION WITH\nPERCETAKAN NASIONAL MALAYSIA BHD\n2006",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751516602.806569",
+    "file_size_bytes": 288276,
+    "original_language_dir": "EN"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "32ef886b98e7"
+}

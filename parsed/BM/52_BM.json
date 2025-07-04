@@ -1,0 +1,53 @@
+{
+  "act_number": "52",
+  "act_title": "Akta 52 (PEMANSUHAN)",
+  "language": "BM",
+  "filename": "Act_52_BM_Akta 52 (PEMANSUHAN).pdf",
+  "file_path": "malaysian_acts/BM/Act_52_BM_Akta 52 (PEMANSUHAN).pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "UNDANG-UNDANG  \nMALAYSIA",
+      "content": "UNDANG-UNDANG  \nMALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Akta 52",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "AKTA PEMBASMI MALARIA 1971",
+      "content": "AKTA PEMBASMI MALARIA 1971",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Dimansuhkan oleh Akta Pencegahan \nDan Pengawalan Penyakit Berjangkit \n1988 [Akta 342])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751517389.4153295",
+    "file_size_bytes": 139482,
+    "original_language_dir": "BM"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "1888ae349070"
+}

@@ -1,0 +1,53 @@
+{
+  "act_number": "758",
+  "act_title": "Repealed by Act 758",
+  "language": "EN",
+  "filename": "Act_758_EN_Repealed by Act 758.pdf",
+  "file_path": "malaysian_acts/EN/Act_758_EN_Repealed by Act 758.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "LAWS OF MALAYSIA",
+      "content": "LAWS OF MALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Act 627",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "PAYMENT SYSTEMS ACT 2003",
+      "content": "PAYMENT SYSTEMS ACT 2003",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Repealed by the Financial Services  \nAct 2013 [Act 758])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751515742.7992",
+    "file_size_bytes": 139306,
+    "original_language_dir": "EN"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "20e2fc29998e"
+}

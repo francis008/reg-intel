@@ -1,0 +1,16 @@
+{
+  "act_number": "10",
+  "act_title": "1074 001",
+  "language": "EN",
+  "filename": "Act_10_EN_1074_001.pdf",
+  "file_path": "malaysian_acts/EN/Act_10_EN_1074_001.pdf",
+  "total_pages": 1,
+  "sections": [],
+  "metadata": {
+    "parsing_timestamp": "1751517492.099176",
+    "file_size_bytes": 3054295,
+    "original_language_dir": "EN"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "9b5307d5ea03"
+}

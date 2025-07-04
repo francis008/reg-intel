@@ -1,0 +1,71 @@
+{
+  "act_number": "434",
+  "act_title": "Act 434 Repealed",
+  "language": "EN",
+  "filename": "Act_434_EN_Act 434 Repealed.pdf",
+  "file_path": "malaysian_acts/EN/Act_434_EN_Act 434 Repealed.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "LAWS  OF  MALAYSIA",
+      "content": "LAWS  OF  MALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "REPRINT",
+      "content": "REPRINT",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "",
+      "content": "Act  434",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "CINEMATOGRAPH FILM-HIRE\nDUTY ACT 1965",
+      "content": "CINEMATOGRAPH FILM-HIRE\nDUTY ACT 1965",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_5",
+      "heading": "",
+      "content": "(Repealed  by  the  Finance  Act  1997\n[Act  557])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_6",
+      "heading": "PUBLISHED BY\nTHE COMMISSIONER OF LAW REVISION, MALAYSIA\nUNDER THE AUTHORITY OF THE REVISION OF LAWS ACT 1968\nIN COLLABORATION WITH\nPERCETAKAN NASIONAL MALAYSIA BHD\n2006",
+      "content": "PUBLISHED BY\nTHE COMMISSIONER OF LAW REVISION, MALAYSIA\nUNDER THE AUTHORITY OF THE REVISION OF LAWS ACT 1968\nIN COLLABORATION WITH\nPERCETAKAN NASIONAL MALAYSIA BHD\n2006",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751516503.7457743",
+    "file_size_bytes": 12727,
+    "original_language_dir": "EN"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "c0b2932c5ca5"
+}

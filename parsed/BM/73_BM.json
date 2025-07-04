@@ -1,0 +1,53 @@
+{
+  "act_number": "73",
+  "act_title": "Akta 73 (Mansuh)",
+  "language": "BM",
+  "filename": "Act_73_BM_Akta 73 (Mansuh).pdf",
+  "file_path": "malaysian_acts/BM/Act_73_BM_Akta 73 (Mansuh).pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "UNDANG-UNDANG  \nMALAYSIA",
+      "content": "UNDANG-UNDANG  \nMALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Akta 73",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "AKTA LEMBAGA KEMAJUAN \nPERUSAHAAN HAIWAN NEGARA \n1972",
+      "content": "AKTA LEMBAGA KEMAJUAN \nPERUSAHAAN HAIWAN NEGARA \n1972",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Dimansuhkan oleh Akta Lembaga \nKemajuan Ternakan Negara \n(Pembubaran) 1983 [Akta 292])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751517332.086974",
+    "file_size_bytes": 139760,
+    "original_language_dir": "BM"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "6477ebcb92b8"
+}

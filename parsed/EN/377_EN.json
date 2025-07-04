@@ -1,0 +1,53 @@
+{
+  "act_number": "377",
+  "act_title": "Act REPEAL",
+  "language": "EN",
+  "filename": "Act_377_EN_Act 377_REPEAL.pdf",
+  "file_path": "malaysian_acts/EN/Act_377_EN_Act 377_REPEAL.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "LAWS OF MALAYSIA",
+      "content": "LAWS OF MALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Act 377",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "RESTRICTED RESIDENCE ACT \n1933",
+      "content": "RESTRICTED RESIDENCE ACT \n1933",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Repealed by the Restricted Residence \n(Repeal) Act 2011 [Act 734])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751516682.4823222",
+    "file_size_bytes": 139454,
+    "original_language_dir": "EN"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "0647967492e7"
+}

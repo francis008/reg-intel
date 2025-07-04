@@ -1,0 +1,62 @@
+{
+  "act_number": "168",
+  "act_title": "Act 168 - Repeal by Act 645",
+  "language": "EN",
+  "filename": "Act_168_EN_Act 168 - Repeal by Act 645.pdf",
+  "file_path": "malaysian_acts/EN/Act_168_EN_Act 168 - Repeal by Act 645.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "LAWS  OF  MALAYSIA",
+      "content": "LAWS  OF  MALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Act  168",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "ANTIQUITIES ACT  1976",
+      "content": "ANTIQUITIES ACT  1976",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Repealed  by  National  Heritage  Act  2005\n[Act  645])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_5",
+      "heading": "PUBLISHED BY\nTHE COMMISSIONER OF LAW REVISION, MALAYSIA\nUNDER THE AUTHORITY OF THE REVISION OF LAWS ACT 1968\nIN COLLABORATION WITH\nPERCETAKAN NASIONAL MALAYSIA BHD\n2006",
+      "content": "PUBLISHED BY\nTHE COMMISSIONER OF LAW REVISION, MALAYSIA\nUNDER THE AUTHORITY OF THE REVISION OF LAWS ACT 1968\nIN COLLABORATION WITH\nPERCETAKAN NASIONAL MALAYSIA BHD\n2006",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751517173.5198941",
+    "file_size_bytes": 5382,
+    "original_language_dir": "EN"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "c03786bb78eb"
+}

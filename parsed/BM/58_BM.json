@@ -1,0 +1,53 @@
+{
+  "act_number": "58",
+  "act_title": "Akta 58 (PEMANSUHAN)",
+  "language": "BM",
+  "filename": "Act_58_BM_Akta 58 (PEMANSUHAN).pdf",
+  "file_path": "malaysian_acts/BM/Act_58_BM_Akta 58 (PEMANSUHAN).pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "UNDANG-UNDANG  \nMALAYSIA",
+      "content": "UNDANG-UNDANG  \nMALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Akta 58",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "AKTA MESIN CETAK 1948",
+      "content": "AKTA MESIN CETAK 1948",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Dimansuhkan oleh Akta Mesin Cetak \nDan Penerbitan 1984 [Akta 301])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751517363.7896578",
+    "file_size_bytes": 139573,
+    "original_language_dir": "BM"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "eaa2226240de"
+}

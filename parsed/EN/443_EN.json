@@ -1,0 +1,53 @@
+{
+  "act_number": "443",
+  "act_title": "Act 443 Repealed",
+  "language": "EN",
+  "filename": "Act_443_EN_Act 443 Repealed.pdf",
+  "file_path": "malaysian_acts/EN/Act_443_EN_Act 443 Repealed.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "LAWS OF MALAYSIA",
+      "content": "LAWS OF MALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Act 443",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "OFFSHORE BANKING  \nACT 1990",
+      "content": "OFFSHORE BANKING  \nACT 1990",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Repealed by the Labuan Financial \nServices And Securities Act 2010 \n [Act 704])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751516454.1657426",
+    "file_size_bytes": 139389,
+    "original_language_dir": "EN"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "b43ed4de0c8a"
+}

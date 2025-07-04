@@ -1,0 +1,53 @@
+{
+  "act_number": "76",
+  "act_title": "Act 76 (Repeal)",
+  "language": "EN",
+  "filename": "Act_76_EN_Act 76 (Repeal).pdf",
+  "file_path": "malaysian_acts/EN/Act_76_EN_Act 76 (Repeal).pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "LAWS OF MALAYSIA",
+      "content": "LAWS OF MALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Act 76",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "PROTECTION OF WILD LIFE \nACT 1972",
+      "content": "PROTECTION OF WILD LIFE \nACT 1972",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Repealed by the Wildlife Conservation  \nAct 2010 [Act 716])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751517320.718712",
+    "file_size_bytes": 61399,
+    "original_language_dir": "EN"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "69428d231d86"
+}

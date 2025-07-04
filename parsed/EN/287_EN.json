@@ -1,0 +1,26 @@
+{
+  "act_number": "287",
+  "act_title": "Act 287 Repealed by Act 502",
+  "language": "EN",
+  "filename": "Act_287_EN_Act 287 Repealed by Act 502.pdf",
+  "file_path": "malaysian_acts/EN/Act_287_EN_Act 287 Repealed by Act 502.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "",
+      "content": "Defamation1LAWS OF MALAYSIAAct 287CO-OPERATIVE SOCIETIESACT 1948(Repealed by the Co-operative Societies Act 1993[Act 502])PUBLISHED BYTHE COMMISSIONER OF LAW REVISION, MALAYSIAUNDER THE AUTHORITY OF THE REVISION OF LAWS ACT 1968IN COLLABORATION WITHPERCETAKAN NASIONAL MALAYSIA BHD2006\f2Laws of MalaysiaACT 286",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751516964.1370964",
+    "file_size_bytes": 59198,
+    "original_language_dir": "EN"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "a8783edd232b"
+}

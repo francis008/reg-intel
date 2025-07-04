@@ -1,0 +1,26 @@
+{
+  "act_number": "285",
+  "act_title": "Act 285 Repealed by Act 567",
+  "language": "EN",
+  "filename": "Act_285_EN_Act 285 Repealed by Act 567.pdf",
+  "file_path": "malaysian_acts/EN/Act_285_EN_Act 285 Repealed by Act 567.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "",
+      "content": "Special Pensions (Raja Permaisuri Agong)1LAWS OF MALAYSIAAct 285LEMBAGA KEMAJUANWILAYAH JENGKA ACT 1983(Repealed by the Lembaga Kemajuan WilayahJengka (Dissolution) Act 1997[Act 567])PUBLISHED BYTHE COMMISSIONER OF LAW REVISION, MALAYSIAUNDER THE AUTHORITY OF THE REVISION OF LAWS ACT 1968IN COLLABORATION WITHPERCETAKAN NASIONAL MALAYSIA BHD2006\f2Laws of MalaysiaACT 223",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751516969.641947",
+    "file_size_bytes": 59940,
+    "original_language_dir": "EN"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "ba571325d67b"
+}

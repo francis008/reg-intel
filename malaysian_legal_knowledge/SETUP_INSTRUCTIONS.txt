@@ -1,0 +1,49 @@
+
+MALAYSIAN LEGAL KNOWLEDGE BASE - UPLOAD INSTRUCTIONS
+
+Created: 2025-07-01 17:55:41
+
+CURRENT STATUS: Template files created
+NEXT STEPS: Replace with real Malaysian legal documents
+
+TO COMPLETE YOUR MALAYSIAN LEGAL AI:
+
+1. DOWNLOAD REAL MALAYSIAN LEGAL DOCUMENTS:
+   
+   Federal Constitution:
+   • Visit: https://www.agc.gov.my/
+   • Download: Federal Constitution of Malaysia (PDF)
+   
+   Malaysian Acts:
+   • Employment Act 1955 (Act 265)
+   • Companies Act 2016 (Act 777)  
+   • Contracts Act 1950 (Act 136)
+   • Consumer Protection Act 1999 (Act 599)
+   • Personal Data Protection Act 2010 (Act 709)
+   
+   Malaysian Case Law:
+   • Access Malaysian Law Journal (MLJ) database
+   • Download landmark Malaysian court decisions
+   • Get Federal Court and Court of Appeal judgments
+
+2. REPLACE TEMPLATE FILES:
+   • Extract text from downloaded PDFs
+   • Replace template content with real legal text
+   • Maintain file naming convention
+
+3. PROCESS WITH AI:
+   • Run: python legal_ai_system.py
+   • System will load real Malaysian legal knowledge
+   • Your AI will then know Malaysian law
+
+IMPORTANT NOTES:
+- Only use publicly available legal documents
+- Ensure you have rights to use the legal texts
+- Focus on current/active Malaysian legislation
+- Include recent court decisions for precedent value
+
+LEGAL DISCLAIMER:
+This system is for informational purposes only.
+Not a substitute for professional legal advice.
+Always consult qualified Malaysian lawyers for legal matters.
+    

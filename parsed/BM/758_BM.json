@@ -1,0 +1,53 @@
+{
+  "act_number": "758",
+  "act_title": "Dimansuhkan Akta 758",
+  "language": "BM",
+  "filename": "Act_758_BM_Dimansuhkan Akta 758.pdf",
+  "file_path": "malaysian_acts/BM/Act_758_BM_Dimansuhkan Akta 758.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "UNDANG-UNDANG  \nMALAYSIA",
+      "content": "UNDANG-UNDANG  \nMALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "",
+      "content": "Akta 627",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "AKTA SISTEM PEMBAYARAN 2003",
+      "content": "AKTA SISTEM PEMBAYARAN 2003",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "",
+      "content": "(Dimansuhkan oleh Akta \nPerkhidmatan Kewangan 2013 \n [Akta 758])",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751515744.2333543",
+    "file_size_bytes": 139639,
+    "original_language_dir": "BM"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "295da8debb6e"
+}

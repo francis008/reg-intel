@@ -1,3 +1,105 @@
-.env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-.venv/
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project-specific ignores
+# RAG system generated files
+secure_data/
+legal_knowledge_base/
+malaysian_legal_docs/
+temp/
+models/
+embeddings_cache/
+.cache/
+
+# Temporary test files
+test_*.py
+*_test.py
+quick_*.py
+minimal_*.py
+build_*.py
+cleanup_*.py
+
+# Generated documents
+sample_legal_docs/
+government_legal_docs/
+temp_*.txt
+tiny_*.txt
+
+# Model files
+*.gguf
+*.bin
+*.safetensors
+
+# Logs
+*.log
+logs/
+access.log
+
+# Temporary files
+*.tmp
+*.temp
+temp_*
+
+# Jupyter notebooks (if not needed in production)
+*.ipynb
+
+# Cache files
+.pytest_cache/
+.coverage
+htmlcov/

@@ -1,0 +1,863 @@
+{
+  "act_number": "130",
+  "act_title": "Act 130",
+  "language": "EN",
+  "filename": "Act_130_EN_Act 130.pdf",
+  "file_path": "malaysian_acts/EN/Act_130_EN_Act 130.pdf",
+  "total_pages": 1,
+  "sections": [
+    {
+      "section_id": "para_1",
+      "heading": "LAWS  OF  MALAYSIA",
+      "content": "LAWS  OF  MALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_2",
+      "heading": "REPRINT",
+      "content": "REPRINT",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_3",
+      "heading": "",
+      "content": "Act  130",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_4",
+      "heading": "HUMAN  TISSUES ACT  1974",
+      "content": "HUMAN  TISSUES ACT  1974",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_5",
+      "heading": "",
+      "content": "Incorporating  all  amendments  up  to  1  January  2006",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_6",
+      "heading": "PUBLISHED BY\nTHE COMMISSIONER OF LAW REVISION, MALAYSIA\nUNDER THE AUTHORITY OF THE REVISION OF LAWS ACT 1968\nIN COLLABORATION WITH\nPERCETAKAN NASIONAL MALAYSIA BHD\n2006",
+      "content": "PUBLISHED BY\nTHE COMMISSIONER OF LAW REVISION, MALAYSIA\nUNDER THE AUTHORITY OF THE REVISION OF LAWS ACT 1968\nIN COLLABORATION WITH\nPERCETAKAN NASIONAL MALAYSIA BHD\n2006",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_7",
+      "heading": "",
+      "content": "2",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_8",
+      "heading": "",
+      "content": "Laws  of  Malaysia",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_9",
+      "heading": "ACT  130",
+      "content": "ACT  130",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_10",
+      "heading": "HUMAN  TISSUES  ACT  1974",
+      "content": "HUMAN  TISSUES  ACT  1974",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_11",
+      "heading": "",
+      "content": "Date  of  Royal  Assent … … … … … … 8  March  1974",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_12",
+      "heading": "",
+      "content": "Date  of  publication  in  the  Gazette … … … 14  March  1974",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_13",
+      "heading": "PREVIOUS  REPRINTS",
+      "content": "PREVIOUS  REPRINTS",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_14",
+      "heading": "",
+      "content": "First  Reprint\nSecond  Reprint",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_15",
+      "heading": "",
+      "content": "...\n...",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_16",
+      "heading": "",
+      "content": "...\n...",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_17",
+      "heading": "",
+      "content": "...\n...",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_18",
+      "heading": "",
+      "content": "...\n...",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_19",
+      "heading": "",
+      "content": "...\n...",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_20",
+      "heading": "",
+      "content": "1995\n2000",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_21",
+      "heading": "",
+      "content": "Human Tissues",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_22",
+      "heading": "",
+      "content": "3",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_23",
+      "heading": "LAWS  OF  MALAYSIA",
+      "content": "LAWS  OF  MALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_24",
+      "heading": "",
+      "content": "Act  130",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_25",
+      "heading": "HUMAN  TISSUES  ACT  1974",
+      "content": "HUMAN  TISSUES  ACT  1974",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_26",
+      "heading": "ARRANGEMENT  OF  SECTIONS",
+      "content": "ARRANGEMENT  OF  SECTIONS",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_27",
+      "heading": "Section\n1.",
+      "content": "Section\n1.",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_28",
+      "heading": "",
+      "content": "Short  title,    application  and  commencement",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_29",
+      "heading": "2. Removal  of  parts  of  bodies  for  therapeutic  purposes",
+      "content": "2. Removal  of  parts  of  bodies  for  therapeutic  purposes",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_30",
+      "heading": "3. Removal  and  use  of  parts  of  bodies",
+      "content": "3. Removal  and  use  of  parts  of  bodies",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_31",
+      "heading": "4. Body  of  deceased  person  in  hospital",
+      "content": "4. Body  of  deceased  person  in  hospital",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_32",
+      "heading": "5. Act  lawful  before  commencement  of  this  Act",
+      "content": "5. Act  lawful  before  commencement  of  this  Act",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_33",
+      "heading": "",
+      "content": "4",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_34",
+      "heading": "",
+      "content": "Laws  of  Malaysia",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_35",
+      "heading": "ACT  130",
+      "content": "ACT  130",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_36",
+      "heading": "",
+      "content": "Human Tissues",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_37",
+      "heading": "",
+      "content": "5",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_38",
+      "heading": "LAWS  OF  MALAYSIA",
+      "content": "LAWS  OF  MALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_39",
+      "heading": "",
+      "content": "Act  130",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_40",
+      "heading": "HUMAN  TISSUES  ACT  1974",
+      "content": "HUMAN  TISSUES  ACT  1974",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_41",
+      "heading": "",
+      "content": "An Act to make provision with respect to the use of parts of human\nbodies of deceased persons for therapeutic purposes and for purposes\nof  medical  education  and  research.",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_42",
+      "heading": "",
+      "content": "[1  January  1975,  P.U.  (B)  619/1974]",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_43",
+      "heading": "",
+      "content": "BE IT ENACTED by the Seri Paduka Baginda Yang di-Pertuan\nAgong  with  the  advice  and  consent  of  the  Dewan  Negara  and\nDewan  Rakyat  in  Parliament  assembled,  and  by  the  authority  of\nthe  same,  as  follows:",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_44",
+      "heading": "",
+      "content": "Short  title,  application  and  commencement",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_45",
+      "heading": "1. (1) This Act may be cited as the Human Tissues Act 1974 and\nshall  apply  throughout  Malaysia.",
+      "content": "1. (1) This Act may be cited as the Human Tissues Act 1974 and\nshall  apply  throughout  Malaysia.",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_46",
+      "heading": "",
+      "content": "(2) This Act shall come into force on such date as the Minister\nresponsible for health may by notification in the Gazette appoint.",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_47",
+      "heading": "",
+      "content": "Removal  of  parts  of  bodies  for  therapeutic  purposes",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_48",
+      "heading": "",
+      "content": "2. (1) If any person, either in writing at any time or orally in the\npresence  of  two  or  more  witnesses  during  his  last  illness,  has\nexpressed a request that his body or any specified part of his body\nbe  used  after  his  death  for  therapeutic  purposes,  or  for  purposes\nof medical education or research, the person lawfully in possession\nof  his  body  after  his  death  may,  unless  he  has  reason  to  believe\nthat the request was subsequently withdrawn, authorize the removal\nfrom  the  body  of  any  part  or,  as  the  case  may  be,  the  specified\npart,  for  use  in  accordance  with  the  request.",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_49",
+      "heading": "",
+      "content": "(2) Without  prejudice  to  the  foregoing  subsection,  the  person\nlawfully  in  possession  of  the  body  of  a  deceased  person  may",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_50",
+      "heading": "",
+      "content": "6",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_51",
+      "heading": "",
+      "content": "Laws  of  Malaysia",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_52",
+      "heading": "ACT  130",
+      "content": "ACT  130",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_53",
+      "heading": "",
+      "content": "authorize  the  removal  of  any  part  from  the  said  body  for  use  for\nthe purposes aforesaid if, having made such reasonable enquiry as\nmay  be  practicable,  he  has  no  reason  to  believe—",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_54",
+      "heading": "",
+      "content": "(a) that the deceased had expressed an objection to his body",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_55",
+      "heading": "",
+      "content": "being  so  dealt  with  after  his  death;  or",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_56",
+      "heading": "",
+      "content": "(b) that the surviving spouse or any surviving next-of-kin of",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_57",
+      "heading": "",
+      "content": "the  deceased  objects  to  the  body  being  so  dealt  with.",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_58",
+      "heading": "",
+      "content": "(3) No authorization shall be given under this section in respect\nof any body by a person entrusted with the body for the purpose\nonly  of  its  internment  or  cremation.",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_59",
+      "heading": "",
+      "content": "Removal  and  use  of  parts  of  bodies",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_60",
+      "heading": "3. (1) Subject to subsections (2) and (3), the removal and use of\nany  part  of  a  body  in  accordance  with  an  authorization  given  in\npursuance  of  section  2  shall  be  lawful.",
+      "content": "3. (1) Subject to subsections (2) and (3), the removal and use of\nany  part  of  a  body  in  accordance  with  an  authorization  given  in\npursuance  of  section  2  shall  be  lawful.",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_61",
+      "heading": "",
+      "content": "(2) No  such  removal  shall  be  effected  except  by  a  medical\npractitioner  fully  registered  under  section  14  of  the  Medical  Act\n1971  [Act  50],  and  who  together  with  at  least  one  other  fully\nregistered medical practitioner have satisfied themselves by personal\nexamination  of  the  body  that  life  is  extinct.",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_62",
+      "heading": "",
+      "content": "(3) Where  a  person  has  reason  to  believe  that  a  post-mortem,\nor an inquest or an inquiry into the death, may be held under the\nCriminal  Procedure  Code  [Act  593],  he  shall  not  except  with  the\nwritten  consent  of  the  Magistrate—",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_63",
+      "heading": "",
+      "content": "(a) give authorization under section 2 in respect of the body;",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_64",
+      "heading": "",
+      "content": "or",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_65",
+      "heading": "",
+      "content": "(b) act  on  an  authorization  given  by  the  deceased  under",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_66",
+      "heading": "",
+      "content": "subsection  2(1)  or  by  any  other  person.",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_67",
+      "heading": "",
+      "content": "Body  of  deceased  person  in  hospital",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_68",
+      "heading": "",
+      "content": "In the case of a body of a deceased person lying in a hospital\n4.\nand unclaimed the person having the control and management of\nthe hospital or any other person authorized by him shall be deemed\nfor the purpose of this Act to be a person in lawful possession of\nthe  body.",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_69",
+      "heading": "",
+      "content": "Human Tissues",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_70",
+      "heading": "",
+      "content": "7",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_71",
+      "heading": "",
+      "content": "Act  lawful  before  commencement  of  this  Act",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_72",
+      "heading": "",
+      "content": "5. Nothing  in  this  Act  shall  be  construed  as  rendering  unlawful\nany  dealing  with,  or  with  any  part  of,  the  body  of  a  deceased\nperson  which  could  have  been  lawful  if  this  Act  had  not  been\npassed.",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_73",
+      "heading": "",
+      "content": "8",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_74",
+      "heading": "",
+      "content": "Laws  of  Malaysia",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_75",
+      "heading": "ACT  130",
+      "content": "ACT  130",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_76",
+      "heading": "LAWS  OF  MALAYSIA",
+      "content": "LAWS  OF  MALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_77",
+      "heading": "",
+      "content": "Act  130",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_78",
+      "heading": "HUMAN  TISSUES  ACT  1974",
+      "content": "HUMAN  TISSUES  ACT  1974",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_79",
+      "heading": "LIST  OF  AMENDMENTS",
+      "content": "LIST  OF  AMENDMENTS",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_80",
+      "heading": "",
+      "content": "Amending  law",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_81",
+      "heading": "",
+      "content": "Short  title",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_82",
+      "heading": "–  NIL  –",
+      "content": "–  NIL  –",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_83",
+      "heading": "",
+      "content": "In  force  from",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_84",
+      "heading": "",
+      "content": "Human Tissues",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_85",
+      "heading": "",
+      "content": "9",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_86",
+      "heading": "LAWS  OF  MALAYSIA",
+      "content": "LAWS  OF  MALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_87",
+      "heading": "",
+      "content": "Act  130",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_88",
+      "heading": "HUMAN  TISSUES  ACT  1974",
+      "content": "HUMAN  TISSUES  ACT  1974",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_89",
+      "heading": "LIST  OF  SECTIONS  AMENDED",
+      "content": "LIST  OF  SECTIONS  AMENDED",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_90",
+      "heading": "Section",
+      "content": "Section",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_91",
+      "heading": "",
+      "content": "Amending  authority",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_92",
+      "heading": "",
+      "content": "In  force  from",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "text"
+    },
+    {
+      "section_id": "para_93",
+      "heading": "–  NIL  –",
+      "content": "–  NIL  –",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    },
+    {
+      "section_id": "para_94",
+      "heading": "DICETAK OLEH\nPERCETAKAN NASIONAL MALAYSIA BERHAD,\nKUALA LUMPUR\nBAGI PIHAK DAN DENGAN PERINTAH KERAJAAN MALAYSIA",
+      "content": "DICETAK OLEH\nPERCETAKAN NASIONAL MALAYSIA BERHAD,\nKUALA LUMPUR\nBAGI PIHAK DAN DENGAN PERINTAH KERAJAAN MALAYSIA",
+      "section_number": null,
+      "subsection": null,
+      "page_number": null,
+      "element_type": "heading"
+    }
+  ],
+  "metadata": {
+    "parsing_timestamp": "1751517231.7728014",
+    "file_size_bytes": 17321,
+    "original_language_dir": "EN"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "74d75f3c256c"
+}

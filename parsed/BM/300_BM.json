@@ -1,0 +1,16 @@
+{
+  "act_number": "300",
+  "act_title": "Akta 300 - Revised 1983",
+  "language": "BM",
+  "filename": "Act_300_BM_Akta 300 - Revised 1983.pdf",
+  "file_path": "malaysian_acts/BM/Act_300_BM_Akta 300 - Revised 1983.pdf",
+  "total_pages": 1,
+  "sections": [],
+  "metadata": {
+    "parsing_timestamp": "1751516947.0054915",
+    "file_size_bytes": 3644869,
+    "original_language_dir": "BM"
+  },
+  "parsing_method": "pdfminer",
+  "document_hash": "3c8b16329497"
+}
