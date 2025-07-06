@@ -40,6 +40,15 @@ except ImportError:
     NUMPY_AVAILABLE = False
     print("❌ numpy not available")
 
+try:
+    from tqdm import tqdm
+    TQDM_AVAILABLE = True
+except ImportError:
+    TQDM_AVAILABLE = False
+    # Create a simple fallback for tqdm
+    def tqdm(iterable, desc=None, total=None):
+        return iterable
+
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -114,25 +123,31 @@ class MalaysianLegalVectorDB:
                 "Dot": Distance.DOT
             }
             
+            # FIXED: Use dictionary configuration for Qdrant v1.14+
             self.client.create_collection(
                 collection_name=self.collection_name,
                 vectors_config=VectorParams(
                     size=vector_size,
                     distance=distance_map.get(distance, Distance.COSINE)
                 ),
-                # Optimize for legal search patterns
-                optimizers_config=models.OptimizersConfig(
-                    default_segment_number=2,
-                    max_segment_size=20000,
-                    memmap_threshold=50000,
-                    indexing_threshold=20000
-                ),
-                # Enable payload indexing for legal metadata
-                hnsw_config=models.HnswConfig(
-                    m=16,
-                    ef_construct=100,
-                    full_scan_threshold=10000
-                )
+                # Use dictionary format for optimizers config
+                optimizers_config={
+                    "deleted_threshold": 0.2,
+                    "vacuum_min_vector_number": 1000,
+                    "flush_interval_sec": 5,
+                    "default_segment_number": 2,
+                    "max_segment_size": 20000,
+                    "memmap_threshold": 50000,
+                    "indexing_threshold": 20000
+                },
+                # Use dictionary format for HNSW config
+                hnsw_config={
+                    "m": 16,
+                    "ef_construct": 100,
+                    "full_scan_threshold": 10000
+                },
+                replication_factor=1,
+                write_consistency_factor=1
             )
             
             logger.info(f"✅ Created collection: {self.collection_name}")
@@ -192,12 +207,16 @@ class MalaysianLegalVectorDB:
         
         logger.info(f"📤 Uploading {len(embeddings_data)} legal embeddings")
         logger.info(f"   📦 Batch size: {batch_size}")
+        logger.info(f"   🖥️ Device: {self.collection_name}")
         
         uploaded_count = 0
         failed_count = 0
+        total_batches = len(embeddings_data) // batch_size + (1 if len(embeddings_data) % batch_size else 0)
         
-        # Process in batches
-        for i in range(0, len(embeddings_data), batch_size):
+        # Process in batches with progress bar
+        for i in tqdm(range(0, len(embeddings_data), batch_size), 
+                     desc="Uploading chunks", 
+                     total=total_batches):
             batch = embeddings_data[i:i + batch_size]
             
             try:
@@ -261,7 +280,11 @@ class MalaysianLegalVectorDB:
                     )
                     
                     uploaded_count += len(points)
-                    logger.info(f"   ✅ Batch {i//batch_size + 1}: {len(points)} points uploaded")
+                    
+                    # Log progress every 10 batches
+                    batch_num = i//batch_size + 1
+                    if batch_num % 10 == 0 or batch_num == total_batches:
+                        logger.info(f"   ✅ Batch {batch_num}/{total_batches}: {len(points)} points uploaded")
                 
             except Exception as e:
                 logger.error(f"❌ Batch upload failed: {e}")
