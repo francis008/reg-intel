@@ -28,25 +28,66 @@ class LegalAISystem:
     """
     
     def __init__(self):
-        # Initialize with vector database as primary system
-        self.legal_knowledge_rag = None  # Legacy RAG system (not needed)
-        self.user_case_rags = {}  # firm_id -> RAG instance for user cases
-        self.vector_db_available = False
-        
-        # Set up connection to Malaysian Legal Vector Database
-        self.setup_legal_knowledge()
+        # Import here to avoid issues if RAG system not available
+        try:
+            from secure_rag_llamaindex import SecureLegalRAGLlamaIndex
+            
+            # Two separate RAG systems for your vision:
+            self.legal_knowledge_rag = SecureLegalRAGLlamaIndex("malaysian_legal_knowledge")  # Government laws
+            self.user_case_rags = {}  # firm_id -> RAG instance for user cases
+            
+            self.setup_legal_knowledge()
+            
+        except ImportError as e:
+            print(f"⚠️ RAG system not available: {e}")
+            self.legal_knowledge_rag = None
+            self.user_case_rags = {}
     
     def setup_legal_knowledge(self):
         """Pre-load Malaysian government legal knowledge"""
-        # Try vector database first (this is our primary system now)
+        if not self.legal_knowledge_rag:
+            print("❌ RAG system not available")
+            return False
+        
+        # Try new pipeline embeddings first
         if self.load_from_pipeline_embeddings():
-            print("📚 Using Malaysian Legal Vector Database")
+            print("📚 Using pipeline-processed Malaysian legal knowledge")
             return True
             
-        print("⚠️ Malaysian Legal Vector Database not available")
-        print("📋 Start the API server: python pipeline/legal_search_api.py")
-        print("📋 Or check if Qdrant is running: docker ps")
-        return False
+        knowledge_base_path = Path("./malaysian_legal_knowledge")
+        
+        if not knowledge_base_path.exists():
+            print("⚠️ Malaysian legal knowledge base not found.")
+            print("📋 Run: python pipeline/run_pipeline.py for complete processing")
+            print("📋 Or run: python build_malaysian_legal_base.py for basic setup")
+            return False
+        
+        print("📚 Loading Malaysian legal knowledge base...")
+        
+        # Process all Malaysian legal documents
+        legal_docs = list(knowledge_base_path.glob("*.txt"))
+        if not legal_docs:
+            print("❌ No legal documents found in knowledge base")
+            return False
+        
+        processed_count = 0
+        for legal_doc in legal_docs:
+            try:
+                success = self.legal_knowledge_rag.process_document_securely(str(legal_doc))
+                if success:
+                    processed_count += 1
+                    print(f"✅ Processed: {legal_doc.name}")
+                else:
+                    print(f"❌ Failed to process: {legal_doc.name}")
+            except Exception as e:
+                print(f"❌ Error processing {legal_doc.name}: {e}")
+        
+        if processed_count > 0:
+            print(f"🎉 Malaysian legal knowledge base ready! ({processed_count} documents)")
+            return True
+        else:
+            print("❌ No documents successfully processed")
+            return False
     
     def search_legal_precedents(self, user_case_description: str, num_results: int = 5) -> Dict[str, Any]:
         """
@@ -58,83 +99,8 @@ class LegalAISystem:
         - Get legal precedents and citations
         - Reference Malaysian legal principles
         """
-        
-        # Use vector database search (primary method)
-        if hasattr(self, 'vector_db_available') and self.vector_db_available:
-            return self._search_via_vector_database(user_case_description, num_results)
-        
-        # If vector database not available, return helpful message
-        return {
-            "error": "Malaysian Legal Vector Database not available",
-            "suggestion": "Start the API server: python pipeline/legal_search_api.py",
-            "user_case": user_case_description
-        }
-    
-    def _search_via_vector_database(self, user_case_description: str, num_results: int = 5) -> Dict[str, Any]:
-        """Search using the Malaysian Legal Vector Database"""
-        try:
-            import requests
-            
-            # Search via vector database API
-            response = requests.get(
-                "http://localhost:8000/search",
-                params={
-                    "q": user_case_description,
-                    "limit": num_results
-                },
-                timeout=10
-            )
-            
-            if response.status_code == 200:
-                api_data = response.json()
-                
-                # The API returns SearchResponse format
-                formatted_results = {
-                    "search_method": "Vector Database",
-                    "query": user_case_description,
-                    "results_found": api_data.get("total_found", 0),
-                    "search_time_ms": api_data.get("search_time_ms", 0),
-                    "legal_precedents": []
-                }
-                
-                for result in api_data.get("results", []):
-                    precedent = {
-                        "act_number": result.get("act_number", ""),
-                        "act_title": result.get("act_title", ""),
-                        "section_heading": result.get("section_heading", ""),
-                        "relevance_score": result.get("relevance_score", 0),
-                        "content": result.get("text_content", ""),
-                        "citation": result.get("citation", ""),
-                        "language": result.get("language", ""),
-                        "page_number": result.get("page_number"),
-                        "section_number": result.get("section_number"),
-                        "legal_analysis": self._generate_legal_analysis(result)
-                    }
-                    formatted_results["legal_precedents"].append(precedent)
-                
-                print(f"🔍 Vector search found {formatted_results['results_found']} relevant Malaysian legal provisions")
-                return formatted_results
-            else:
-                print(f"❌ Vector database search failed: HTTP {response.status_code}")
-                return {
-                    "error": f"Search API returned HTTP {response.status_code}",
-                    "suggestion": "Check if the legal search API is running properly"
-                }
-                
-        except Exception as e:
-            print(f"❌ Vector database search error: {e}")
-            return {
-                "error": f"Vector database connection failed: {e}",
-                "suggestion": "Ensure the legal search API is running: python pipeline/legal_search_api.py"
-            }
-    
-    def _search_via_rag(self, user_case_description: str, num_results: int = 5) -> Dict[str, Any]:
-        """Fallback search using traditional RAG"""
         if not self.legal_knowledge_rag:
-            return {
-                "error": "Neither vector database nor RAG system available",
-                "suggestion": "Run: python pipeline/run_pipeline.py to set up the system"
-            }
+            return {"error": "Legal knowledge system not available"}
         
         try:
             # Search Malaysian legal knowledge for relevant precedents
@@ -274,44 +240,28 @@ class LegalAISystem:
     
     def get_system_status(self) -> Dict[str, Any]:
         """Check if the Malaysian legal AI system is ready"""
+        if not self.legal_knowledge_rag:
+            return {
+                "system_ready": False,
+                "error": "RAG system not available"
+            }
+        
         try:
-            # Check if vector database API is available
-            import requests
+            knowledge_stats = self.legal_knowledge_rag.get_firm_statistics()
             
-            # Test connection to vector database
-            response = requests.get("http://localhost:8000/health", timeout=5)
-            if response.status_code == 200:
-                health_data = response.json()
-                
-                # Get collection stats
-                stats_response = requests.get("http://localhost:8000/stats", timeout=5)
-                stats_data = stats_response.json() if stats_response.status_code == 200 else {}
-                
-                return {
-                    "system_ready": health_data.get("status") == "healthy",
-                    "vector_db_available": True,
-                    "search_api_running": True,
-                    "legal_documents_count": stats_data.get("total_documents", 0),
-                    "collection_status": stats_data.get("status", "unknown"),
-                    "embedding_model": stats_data.get("embedding_model", ""),
-                    "api_endpoint": "http://localhost:8000",
-                    "last_updated": "Vector database active"
-                }
-            else:
-                return {
-                    "system_ready": False,
-                    "vector_db_available": False,
-                    "search_api_running": False,
-                    "error": f"API health check failed: HTTP {response.status_code}"
-                }
-                
+            return {
+                "system_ready": knowledge_stats.get('total_documents', 0) > 0,
+                "legal_knowledge_ready": knowledge_stats.get('index_exists', False),
+                "legal_documents_count": knowledge_stats.get('total_documents', 0),
+                "storage_size_mb": knowledge_stats.get('storage_size_mb', 0),
+                "user_firms": len(self.user_case_rags),
+                "last_updated": knowledge_stats.get('last_updated', 'Never')
+            }
+        
         except Exception as e:
             return {
                 "system_ready": False,
-                "vector_db_available": False,
-                "search_api_running": False,
-                "error": f"Cannot connect to legal search API: {e}",
-                "suggestion": "Start the API: python pipeline/legal_search_api.py"
+                "error": f"Status check failed: {e}"
             }
     
     def _extract_legal_areas(self, legal_text: str) -> List[str]:
@@ -373,126 +323,28 @@ class LegalAISystem:
         return requirements if requirements else ["General legal compliance required"]
     
     def load_from_pipeline_embeddings(self) -> bool:
-        """Load Malaysian legal knowledge from the vector database"""
-        try:
-            # Check if vector database API is available
-            import requests
-            
-            # Test connection to vector database
-            response = requests.get("http://localhost:8000/health", timeout=5)
-            if response.status_code == 200:
-                health_data = response.json()
-                
-                if health_data.get("status") == "healthy":
-                    print(f"✅ Connected to Malaysian Legal Vector Database")
-                    print(f"🔍 API endpoint: http://localhost:8000")
-                    
-                    # Get stats if available
-                    try:
-                        stats_response = requests.get("http://localhost:8000/stats", timeout=5)
-                        if stats_response.status_code == 200:
-                            stats_data = stats_response.json()
-                            total_docs = stats_data.get("total_documents", 0)
-                            print(f"📚 {total_docs} legal documents available")
-                    except:
-                        pass
-                    
-                    self.vector_db_available = True
-                    return True
-                else:
-                    print("⚠️ Vector database not healthy")
-                    return False
-            else:
-                print("⚠️ Vector database API not responding")
-                return False
-                
-        except requests.exceptions.RequestException:
-            print("⚠️ Vector database not available - checking local embeddings")
-            self.vector_db_available = False
-            
-            # Fallback to local embeddings check
-            embeddings_dir = Path("./embeddings")
-            
-            if not embeddings_dir.exists():
-                print("📋 Run: python pipeline/run_pipeline.py to create embeddings")
-                return False
-            
-            # Check for pipeline output files
-            embeddings_file = embeddings_dir / "legal_embeddings_complete.pkl"
-            metadata_file = embeddings_dir / "legal_chunks_metadata.json"
-            
-            if embeddings_file.exists() or metadata_file.exists():
-                print("✅ Found local embeddings - start vector database to enable search")
-                print("📋 Run: docker run -p 6333:6333 qdrant/qdrant")
-                print("📋 Then: python pipeline/upload_to_vectordb.py")
-                return True
-            else:
-                print("❌ No embeddings found")
-                return False
+        """Load Malaysian legal knowledge from the new pipeline embeddings"""
+        embeddings_dir = Path("./embeddings")
         
-        except ImportError:
-            print("❌ requests library not available")
+        if not embeddings_dir.exists():
+            print("⚠️ Pipeline embeddings not found.")
+            print("📋 Run: python pipeline/run_pipeline.py to create embeddings")
             return False
-    
-    def _generate_legal_analysis(self, result: Dict[str, Any]) -> str:
-        """Generate legal analysis for search results"""
-        try:
-            act_title = result.get("act_title", "Unknown Act")
-            section = result.get("section", "")
-            section_heading = result.get("section_heading", "")
-            relevance = result.get("relevance_score", 0)
-            
-            analysis = f"This provision from {act_title}"
-            if section:
-                analysis += f" (Section {section}"
-                if section_heading:
-                    analysis += f": {section_heading}"
-                analysis += ")"
-            
-            analysis += f" has {relevance:.1%} relevance to your case."
-            
-            # Add context based on relevance score
-            if relevance > 0.8:
-                analysis += " This is highly relevant and should be carefully considered."
-            elif relevance > 0.6:
-                analysis += " This provision may be applicable to your situation."
-            else:
-                analysis += " This may provide general guidance or background context."
-            
-            return analysis
-            
-        except Exception:
-            return "Legal analysis not available for this result."
-    
-    def legal_question_answering(self, question: str) -> Dict[str, Any]:
-        """Answer legal questions using Malaysian legal knowledge"""
         
-        # Try vector database first
-        if hasattr(self, 'vector_db_available') and self.vector_db_available:
-            try:
-                import requests
-                
-                response = requests.get(
-                    "http://localhost:8000/ask",
-                    params={"question": question},
-                    timeout=15
-                )
-                
-                if response.status_code == 200:
-                    result = response.json()
-                    result["search_method"] = "Vector Database"
-                    print(f"🔍 Legal Q&A via vector database")
-                    return result
-                    
-            except Exception as e:
-                print(f"⚠️ Vector database Q&A failed: {e}")
+        # Check for pipeline output files
+        embeddings_file = embeddings_dir / "legal_embeddings_complete.pkl"
+        metadata_file = embeddings_dir / "legal_chunks_metadata.json"
         
-        # Return helpful message if vector database not available
-        return {
-            "error": "Legal Q&A system not available",
-            "suggestion": "Start the legal search API: python pipeline/legal_search_api.py",
-            "question": question
-        }
+        if embeddings_file.exists():
+            print("✅ Found pipeline embeddings - legal knowledge ready!")
+            return True
+        elif metadata_file.exists():
+            print("✅ Found pipeline metadata - legal knowledge ready!")
+            return True
+        else:
+            print("❌ No pipeline embeddings found")
+            return False
+
 
 def test_legal_ai_vision():
     """Test the Malaysian Legal AI Vision"""
@@ -508,14 +360,11 @@ def test_legal_ai_vision():
     print(f"📊 System Status: {'Ready' if status['system_ready'] else 'Not Ready'}")
     
     if not status['system_ready']:
-        print("❌ Legal Vector Database not available")
-        print("📋 Start the search API: python pipeline/legal_search_api.py")
-        if 'suggestion' in status:
-            print(f"💡 {status['suggestion']}")
+        print("❌ Legal knowledge base not ready")
+        print("📋 Please run: python build_malaysian_legal_base.py")
         return None
     
-    print(f"📚 Legal documents loaded: {status.get('legal_documents_count', 'Unknown')}")
-    print(f"🔍 Search API endpoint: {status.get('api_endpoint', 'http://localhost:8000')}")
+    print(f"📚 Legal documents loaded: {status['legal_documents_count']}")
     
     # TEST USE CASE A: Search Legal Precedents
     print(f"\n🔍 USE CASE A: Searching Malaysian Legal Precedents")
@@ -533,48 +382,34 @@ def test_legal_ai_vision():
         result = legal_ai.search_legal_precedents(case)
         
         if 'error' not in result:
-            if 'legal_precedents' in result:
-                print(f"   ✅ Found {result['results_found']} precedents")
-                print(f"   🔍 Search method: {result['search_method']}")
-                if result['legal_precedents']:
-                    first_result = result['legal_precedents'][0]
-                    print(f"   📚 Top result: {first_result.get('act_title', 'Unknown Act')}")
-                    print(f"   📖 Citation: {first_result.get('citation', 'No citation')}")
-                    print(f"   💡 Relevance: {first_result.get('relevance_score', 0):.1%}")
-            else:
-                print(f"   ✅ Search completed")
+            print(f"   ✅ Found precedents (Confidence: {result['confidence']:.1%})")
+            print(f"   📚 Legal Areas: {', '.join(result['legal_areas'])}")
+            print(f"   📖 Citations: {', '.join(result['relevant_citations'][:3])}")
+            print(f"   💡 Precedents: {result['legal_precedents'][:200]}...")
         else:
             print(f"   ❌ Error: {result['error']}")
-            if 'suggestion' in result:
-                print(f"   💡 {result['suggestion']}")
     
-    # TEST USE CASE B: Legal Question Answering
-    print(f"\n❓ USE CASE B: Legal Question Answering")
+    # TEST USE CASE B: Draft with Legal Knowledge
+    print(f"\n📝 USE CASE B: Drafting with Malaysian Legal Knowledge")
     print("=" * 50)
     
-    qa_tests = [
-        "What are the grounds for dismissing an employee in Malaysia?",
-        "What are the requirements for a valid contract under Malaysian law?",
-        "What are the penalties for breach of employment contract?",
-        "What are the director's duties under the Companies Act?"
+    drafting_tests = [
+        ("Create an employment agreement with proper termination clauses", "employment_agreement"),
+        ("Draft a software licensing agreement with IP protections", "licensing_agreement"),
+        ("Generate a privacy policy compliant with Malaysian consumer protection laws", "legal_memo")
     ]
     
-    for i, question in enumerate(qa_tests, 1):
-        print(f"\n❓ Q&A Test {i}: {question}")
-        result = legal_ai.legal_question_answering(question)
+    for i, (prompt, doc_type) in enumerate(drafting_tests, 1):
+        print(f"\n📄 Draft Test {i}: {prompt}")
+        result = legal_ai.draft_legal_document_with_knowledge(prompt, doc_type)
         
         if 'error' not in result:
-            print(f"   ✅ Answer generated")
-            print(f"   🔍 Search method: {result.get('search_method', 'Unknown')}")
-            if 'answer' in result:
-                answer_preview = result['answer'][:200] + "..." if len(result['answer']) > 200 else result['answer']
-                print(f"   � Answer preview: {answer_preview}")
-            if 'citations' in result and result['citations']:
-                print(f"   � Citations: {', '.join(result['citations'][:3])}")
+            print(f"   ✅ Document generated (Confidence: {result['confidence']:.1%})")
+            print(f"   📚 Legal sources used: {result['legal_sources_used']}")
+            print(f"   📋 Compliance basis: {len(result['compliance_basis'])} requirements")
+            print(f"   📄 Preview: {result['generated_document'][:200]}...")
         else:
             print(f"   ❌ Error: {result['error']}")
-            if 'suggestion' in result:
-                print(f"   💡 {result['suggestion']}")
     
     print(f"\n🎉 MALAYSIAN LEGAL AI VISION TEST COMPLETE!")
     return legal_ai
@@ -591,13 +426,9 @@ if __name__ == "__main__":
         print("\n✅ Your Malaysian Legal AI Vision is working!")
         print("\n🎯 What this system provides:")
         print("   • Search Malaysian legal precedents and statutes")
-        print("   • Answer legal questions with citations")
-        print("   • Find relevant Malaysian Acts and sections")
-        print("   • Semantic search across 188K+ legal chunks")
-        print("   • Bilingual support (English & Bahasa Malaysia)")
-        print(f"\n🌐 Access the web API at: http://localhost:8000/docs")
+        print("   • Draft documents compliant with Malaysian law")
+        print("   • Cite relevant Malaysian cases and acts")
+        print("   • Keep user cases private and separate")
         print("\n🚀 Ready for integration with your web application!")
     else:
-        print("\n❌ System not ready - Malaysian Legal Vector Database not available")
-        print("📋 Start the search API: python pipeline/legal_search_api.py")
-        print("📋 Or check if Qdrant is running: docker ps")
+        print("\n❌ System not ready - need to build Malaysian legal knowledge base")

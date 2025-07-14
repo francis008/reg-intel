@@ -1,0 +1,84 @@
+{
+  "pdf_name": "Act_514_EN_Act 514 - Final (1.6.2024).pdf",
+  "page_analyzed": 1,
+  "total_elements": 7,
+  "elements": [
+    {
+      "index": 0,
+      "page_number": 1,
+      "element_type": "Image",
+      "text": "",
+      "character_count": 0,
+      "metadata": {
+        "coordinates": "CoordinatesMetadata(points=((np.float64(547.2222222222222), np.float64(204.16666666666666)), (np.float64(547.2222222222222), np.float64(475.8333333333332)), (np.float64(876.9444444444443), np.float64(475.8333333333332)), (np.float64(876.9444444444443), np.float64(204.16666666666666))), system=<unstructured.documents.coordinates.PixelSpace object at 0x332b67740>)",
+        "filename": "Act_514_EN_Act 514 - Final (1.6.2024).pdf"
+      }
+    },
+    {
+      "index": 1,
+      "page_number": 1,
+      "element_type": "FigureCaption",
+      "text": "LAWS OF MALAYSIA",
+      "character_count": 16,
+      "metadata": {
+        "coordinates": "CoordinatesMetadata(points=((np.float64(402.7222222222222), np.float64(515.8982222222221)), (np.float64(402.7222222222222), np.float64(576.8982222222222)), (np.float64(1046.1944444444443), np.float64(576.8982222222222)), (np.float64(1046.1944444444443), np.float64(515.8982222222221))), system=<unstructured.documents.coordinates.PixelSpace object at 0x1691965a0>)",
+        "filename": "Act_514_EN_Act 514 - Final (1.6.2024).pdf"
+      }
+    },
+    {
+      "index": 2,
+      "page_number": 1,
+      "element_type": "NarrativeText",
+      "text": "ONLINE VERSION OF UPDATED TEXT OF REPRINT",
+      "character_count": 41,
+      "metadata": {
+        "coordinates": "CoordinatesMetadata(points=((np.float64(469.3160705566406), np.float64(651.5861206054688)), (np.float64(469.3160705566406), np.float64(729.9815555555556)), (np.float64(970.8611111111111), np.float64(729.9815555555556)), (np.float64(970.8611111111111), np.float64(651.5861206054688))), system=<unstructured.documents.coordinates.PixelSpace object at 0x168f3cc20>)",
+        "filename": "Act_514_EN_Act 514 - Final (1.6.2024).pdf"
+      }
+    },
+    {
+      "index": 3,
+      "page_number": 1,
+      "element_type": "FigureCaption",
+      "text": "Act 514",
+      "character_count": 7,
+      "metadata": {
+        "coordinates": "CoordinatesMetadata(points=((np.float64(634.4989013671875), np.float64(788.9388888888888)), (np.float64(634.4989013671875), np.float64(838.9388888888888)), (np.float64(810.3611111111111), np.float64(838.9388888888888)), (np.float64(810.3611111111111), np.float64(788.9388888888888))), system=<unstructured.documents.coordinates.PixelSpace object at 0x168f3df40>)",
+        "filename": "Act_514_EN_Act 514 - Final (1.6.2024).pdf"
+      }
+    },
+    {
+      "index": 4,
+      "page_number": 1,
+      "element_type": "Title",
+      "text": "OCCUPATIONAL SAFETY AND HEALTH ACT 1994",
+      "character_count": 39,
+      "metadata": {
+        "coordinates": "CoordinatesMetadata(points=((np.float64(284.5831604003906), np.float64(930.188232421875)), (np.float64(284.5831604003906), np.float64(1050.3682861328125)), (np.float64(1148.8052978515625), np.float64(1050.3682861328125)), (np.float64(1148.8052978515625), np.float64(930.188232421875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x169110110>)",
+        "filename": "Act_514_EN_Act 514 - Final (1.6.2024).pdf"
+      }
+    },
+    {
+      "index": 5,
+      "page_number": 1,
+      "element_type": "NarrativeText",
+      "text": "As at 1 June 2024",
+      "character_count": 17,
+      "metadata": {
+        "coordinates": "CoordinatesMetadata(points=((np.float64(594.0241088867188), np.float64(1091.7935791015625)), (np.float64(594.0241088867188), np.float64(1126.3944444444442)), (np.float64(853.1944444444443), np.float64(1126.3944444444442)), (np.float64(853.1944444444443), np.float64(1091.7935791015625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x1691109e0>)",
+        "filename": "Act_514_EN_Act 514 - Final (1.6.2024).pdf"
+      }
+    },
+    {
+      "index": 6,
+      "page_number": 1,
+      "element_type": "NarrativeText",
+      "text": "This text is ONLY AN UPDATED TEXT of the Occupational Safety and Health Act 1994 by the Attorney General’s Chambers. Unless and until reprinted pursuant to the powers of the Commissioner of Law Revision under subsection 14(1) of the Revision of Laws Act 1968 [Act 1], this text is NOT AN AUTHENTIC TEXT.",
+      "character_count": 303,
+      "metadata": {
+        "coordinates": "CoordinatesMetadata(points=((np.float64(246.75144958496094), np.float64(1667.0111111111112)), (np.float64(246.75144958496094), np.float64(1780.1999999999998)), (np.float64(1195.3472900390625), np.float64(1780.1999999999998)), (np.float64(1195.3472900390625), np.float64(1667.0111111111112))), system=<unstructured.documents.coordinates.PixelSpace object at 0x334c29f10>)",
+        "filename": "Act_514_EN_Act 514 - Final (1.6.2024).pdf"
+      }
+    }
+  ]
+}

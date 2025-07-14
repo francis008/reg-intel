@@ -316,7 +316,7 @@ app.add_middleware(
 # Initialize search engine
 search_engine = MalaysianLegalSearchEngine()
 
-@app.on_event("startup")
+@app.on_startup
 async def startup_event():
     """Initialize services on startup"""
     logger.info("🇲🇾 Malaysian Legal Search API starting up...")
